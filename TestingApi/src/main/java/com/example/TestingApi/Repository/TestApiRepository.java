@@ -6,5 +6,5 @@ import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 
 @Repository
-public interface TestApiRepository extends JpaRepository<TestApiEntity,Long> {
+public interface TestApiRepository extends JpaRepository<TestApiEntity,Long>  {
 }

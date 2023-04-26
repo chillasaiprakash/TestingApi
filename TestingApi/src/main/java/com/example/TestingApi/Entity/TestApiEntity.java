@@ -1,7 +1,10 @@
 package com.example.TestingApi.Entity;
 
-import jakarta.persistence.*;
+
 import org.springframework.boot.autoconfigure.web.WebProperties;
+
+import javax.persistence.*;
+
 @Table
 @Entity
 public class TestApiEntity {
@@ -18,6 +21,9 @@ public class TestApiEntity {
                 ", lastTime='" + lastTime + '\'' +
                 ", id=" + id +
                 '}';
+    }
+
+    public TestApiEntity() {
     }
 
     public TestApiEntity(String firstName, String lastTime, Double id) {
